@@ -1,18 +1,16 @@
-
 <!-- START:head -->
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Bowjangles Online Store</title>
-  <%= stylesheet_link_tag    "application", media: "all",
-    "data-turbolinks-track" => true %>
+  <title>Pragprog Books Online Store</title>
+  <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <!-- END:head -->
 <body class="<%= controller.controller_name %>">
   <div id="banner">
-    <%= @page_title || "Bowjangles" %>
+    <%= @page_title || "Bow Jangles" %>
   </div>
   <div id="columns">
     <div id="side">
@@ -23,7 +21,7 @@
 
 <!-- END_HIGHLIGHT -->
       <ul>
-        <li><a href='/'>Home</a></li>
+        <li><a href="http://www....">Home</a></li>
         <li><a href="http://www..../faq">Questions</a></li>
         <li><a href="http://www..../news">News</a></li>
         <li><a href="http://www..../contact">Contact</a></li>
