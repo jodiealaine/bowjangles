@@ -7,7 +7,19 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 Product.delete_all
-Product.create!(title: 'Benji',
+Product.create!(title: 'Benji Mark One',
+  description: 
+    %{<p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Maecenas tincidunt pharetra orci et ullamcorper.
+        Nunc auctor dolor augue, luctus blandit nibh tempus at. 
+        Maecenas rutrum purus et lacus porttitor, vitae ornare leo blandit. 
+        Aenean sodales quis urna eu vestibulum. Sed elit justo, pulvinar sit amet sodales non, 
+        iaculis sit amet lectus. Suspendisse accumsan viverra quam, nec adipiscing diam pharetra eu. 
+      </p>},
+  image_url:   'https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-prn1/303256_232991610083064_711402969_n.jpg',    
+  price: 36.00)
+Product.create!(title: 'Tinker Bear - Mohair',
   description: 
     %{<p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -20,7 +32,34 @@ Product.create!(title: 'Benji',
   image_url:   'https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-ash4/315960_232917220090503_1092112808_n.jpg',    
   price: 36.00)
 # . . .
-Product.create!(title: 'The Gardener',
+Product.create!(title: 'Bob Bear - Mohair',
+  description: 
+    %{<p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Maecenas tincidunt pharetra orci et ullamcorper.
+        Nunc auctor dolor augue, luctus blandit nibh tempus at. 
+        Maecenas rutrum purus et lacus porttitor, vitae ornare leo blandit. 
+        Aenean sodales quis urna eu vestibulum. Sed elit justo, pulvinar sit amet sodales non, 
+        iaculis sit amet lectus. Suspendisse accumsan viverra quam, nec adipiscing diam pharetra eu. 
+      </p>},
+  image_url:   'https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-ash4/315960_232917220090503_1092112808_n.jpg',    
+  price: 36.00)
+# . . .
+Product.create!(title: 'Benji Bear - Mohair',
+  description: 
+    %{<p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Maecenas tincidunt pharetra orci et ullamcorper.
+        Nunc auctor dolor augue, luctus blandit nibh tempus at. 
+        Maecenas rutrum purus et lacus porttitor, vitae ornare leo blandit. 
+        Aenean sodales quis urna eu vestibulum. Sed elit justo, pulvinar sit amet sodales non, 
+        iaculis sit amet lectus. Suspendisse accumsan viverra quam, nec adipiscing diam pharetra eu. 
+      </p>},
+  image_url:   'https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-ash4/315960_232917220090503_1092112808_n.jpg',    
+  price: 36.00)
+# . . .
+# . . .
+Product.create!(title: 'The Gardener - Mohair',
   description:
     %{<p>
        Aenean elementum sed nulla sit amet pulvinar. Mauris malesuada, ipsum et ultrices rhoncus, 
@@ -32,7 +71,7 @@ Product.create!(title: 'The Gardener',
   price: 49.95)
 # . . .
 
-Product.create!(title: 'Jingles',
+Product.create!(title: 'Jingles Bear',
   description: 
     %{<p>
         <em>Jingles</em> Sed aliquet eleifend dui, sit amet facilisis sapien hendrerit at. 
