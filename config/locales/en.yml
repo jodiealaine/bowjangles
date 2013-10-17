@@ -29,4 +29,8 @@ en:
           attributes:
             title:
               too_short: "has to be greater than or equal to 10 characters"
+  number:
+    currency:
+      format:
+        unit: "£"
 

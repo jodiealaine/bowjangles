@@ -8,15 +8,16 @@
     margin: 0;
     padding-bottom: 0.5em;
     font:  150% sans-serif;
-    color: #226;
-    border-bottom: 3px dotted #77d;
+    color: gray;
+    text-align: right;
+    letter-spacing: 0.25em;
+    border-bottom: 1px dotted #77d;
   }
 
   /* An entry in the store catalog */
   .entry {
     overflow: auto;
     margin-top: 1em;
-    border-bottom: 1px dotted #77d;
     min-height: 100px;
 
     img {
@@ -24,6 +25,7 @@
       margin-right: 5px;
       margin-bottom: 5px;
       position: absolute;
+      border-radius: 20%;
     }
 
     h3 {
@@ -32,7 +34,8 @@
       margin-left: 100px;
       margin-top: 0;
       margin-bottom: 2px;
-      color: #227;
+      color: #E06C1F;
+      letter-spacing: 0.1em;
     }
 
 //#START:inline
@@ -50,7 +53,7 @@
 //#END:inline
 
     .price {
-      color: #44a;
+      color: black;
       font-weight: bold;
       margin-right: 3em;
     }
