@@ -21,3 +21,12 @@
 
 en:
   hello: "Hello world"
+  activerecord:
+    attributes:
+    errors:
+      models:
+        product:
+          attributes:
+            title:
+              too_short: "has to be greater than or equal to 10 characters"
+
